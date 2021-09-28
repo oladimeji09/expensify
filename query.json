@@ -1,0 +1,15 @@
+{ "type"               : "file",
+  "credentials"        : {"partnerUserID": "",
+                              "partnerUserSecret": ""},
+
+  "onReceive"         : {"immediateResponse": ["returnRandomFileName"]},
+
+  "inputSettings"     : {"type": "combinedReportData",
+                              "reportState":"APPROVED",
+                                     "filters":{
+                                              "startDate":"2017-04-08",
+                                              "endDate":"2017-07-06"}},
+  "outputSettings"     : {"fileExtension": "txt",
+                              "fileBasename":"myExport"}
+ 
+}
